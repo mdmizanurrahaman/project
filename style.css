@@ -1,0 +1,102 @@
+body{margin:0;
+     padding:0;
+	 
+	 }	 
+	 
+	/* maim menu */ 	 
+	 
+	 
+.main_menu{
+	
+          }	 
+.main_menu ul{
+	background:#4d2bb5;
+	margin:0;
+	list-style:none;
+	padding:0;
+	
+	
+	
+}
+.main_menu ul li{
+	float:left;
+	position:relative;
+	
+}
+.main_menu ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.main_menu ul li a {
+    color: #f7eded;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+}
+.main_menu ul li a:hover{
+	background:orange;
+}
+/* drop down menu design */
+
+.main_menu ul ul li{
+	 float:none;
+	 background:red;
+}
+.main_menu ul ul{
+	position:absolute;
+	top:100%
+	left:0;
+	display:none;
+	
+}
+.main_menu ul li:hover ul{
+	display:block;
+}
+
+
+
+.knolege_box{
+	width: 395px;
+    height: 150px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 15px;
+	}
+
+.box_icon_left{
+	font-size:50px;
+	color:#29b2fe;
+}
+
+h1{
+	font-family: italic;
+	font-size: 50;
+	text-align:center;
+	}
+	
+	
+/* footer area */	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
